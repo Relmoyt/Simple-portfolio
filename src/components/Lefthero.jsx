@@ -1,8 +1,8 @@
-const Portfolioimage = "";
+const Portfolioimage = "../assets/Portfolio Image.jpg";
 function Lefthero() {
   return (
     <div>
-      <img src="" alt="Portfolio Image" />
+      <img src={Portfolioimage} alt="Portfolio Image" />
     </div>
   );
 }

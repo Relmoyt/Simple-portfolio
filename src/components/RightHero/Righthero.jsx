@@ -3,7 +3,7 @@ import Discordrpc from "./components/discordrpc";
 
 function RightHero() {
   return (
-    <div>
+    <div className="w-fit h-fit m-4">
       <About />
       <Discordrpc />
     </div>

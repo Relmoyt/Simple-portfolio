@@ -3,7 +3,7 @@ import Hero from "./pages/hero";
 
 function App() {
   return (
-    <main>
+    <main className="h-screen w-screen">
       <Hero />
     </main>
   );

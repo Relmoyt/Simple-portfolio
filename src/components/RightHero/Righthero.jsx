@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Discordrpc from "./components/discordrpc";
+import Discordrpc from "./components/Discordrpc";
 
 function RightHero() {
   return (

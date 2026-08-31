@@ -45,20 +45,6 @@ function Lefthero() {
           Add Friend
         </a>
       </div>
-      <div className="text-black flex flex-col justify-center items-center mt-3">
-        <div className="flex h-fit">
-          <p className="py-2 px-5 border-b-2 mx-2 text-sm hover:bg-black/5 hover:cursor-pointer transition">
-            Main
-          </p>
-          <p className="py-2 px-5 border-b-2 mx-2 text-sm hover:bg-black/5 border-none transition hover:cursor-pointer">
-            Board
-          </p>
-          <p className="py-2 px-5 border-b-2 mx-2 text-sm hover:bg-black/5 border-none transition hover:cursor-pointer">
-            Wishlist
-          </p>
-        </div>
-        <div className="w-92 h-0.5 bg-gray-500/50 rounded-2xl -mt-0.5"></div>
-      </div>
       <div className="ml-3 mt-3">
         <p className="max-w-94 mb-3 overflow-hidden text-black text-sm font-md">
           Bio

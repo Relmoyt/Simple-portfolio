@@ -5,7 +5,7 @@ const user = "relmoyt";
 const pron = "He / Him";
 function Discordrpc() {
   return (
-    <div className="max-w-2xl h-fit flex">
+    <div className="max-w-2xl h-fit flex" data-aos="fade-up">
       <div className="w-1/2 mr-2 h-25 border-2 flex border-white rounded-2xl p-2 bg-white backdrop-blur-xl text-black mt-2 shadow-sm shadow-black relative">
         <div className="w-20 h-20">
           <img

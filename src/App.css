@@ -5,6 +5,11 @@
   --font-sans: Inter, sans-serif;
 }
 
+::selection {
+  background-color: black;
+  color: white;
+}
+
 @layer base {
   body {
     @apply bg-transparent font-sans overflow-hidden text-white;

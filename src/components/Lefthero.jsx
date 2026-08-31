@@ -7,7 +7,10 @@ const desc = ["Line1", "Line2", "Line3"];
 const userlink = "https://discord.gg/123123123123123";
 function Lefthero() {
   return (
-    <div className="w-fit h-fit m-4 pb-6 bg-white rounded-2xl shadow-sm shadow-black">
+    <div
+      className="w-fit h-fit m-4 pb-6 bg-white rounded-2xl shadow-sm shadow-black"
+      data-aos="fade-right"
+    >
       <img
         src={banner}
         alt="banner"

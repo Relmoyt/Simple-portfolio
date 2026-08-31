@@ -98,6 +98,7 @@ function Bottomsect() {
           key={link.name}
           href={link.href}
           className="text-black bg-transparent w-9 h-9 border rounded-full border-black flex items-center justify-center p-2 text-2xl hover:bg-black hover:text-white transition hover:translate-y-0.5"
+          data-aos="fade-up"
         >
           {link.icon}
         </a>

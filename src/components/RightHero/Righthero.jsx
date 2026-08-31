@@ -4,7 +4,7 @@ import Discordrpc from "./components/Discordrpc";
 
 function RightHero() {
   return (
-    <div className="w-fit h-fit m-4">
+    <div className="w-fit h-fit m-4" data-aos="fade-left">
       <About />
       <Discordrpc />
       <Bottomsect />

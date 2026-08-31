@@ -1,4 +1,5 @@
 import avatar from "../../../assets/avatar.png";
+import TimezoneWidget from "./Timezone";
 const name = "Relmo";
 const user = "relmoyt";
 const pron = "He / Him";
@@ -25,7 +26,9 @@ function Discordrpc() {
           </p>
         </div>
       </div>
-      <div className="w-1/2 h-fit border-2 border-white rounded-2xl p-4 bg-white backdrop-blur-xl text-black mt-2 shadow-sm shadow-black"></div>
+      <div className="w-1/2 h-25 border-2 border-white rounded-2xl p-4 bg-white backdrop-blur-xl text-black mt-2 shadow-sm shadow-black">
+        <TimezoneWidget />
+      </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import avatar from "../assets/avatar.png";
 const name = "Relmo";
 const user = "relmoyt";
 const pron = "He / Him";
-const desc = ["Game Dev | 4 years", "Youtuber | 16K+", "DaVinci Resolve"];
+const desc = ["Line1", "Line2", "Line3"];
 const userlink = "https://discord.gg/123123123123123";
 function Lefthero() {
   return (

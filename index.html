@@ -2,9 +2,157 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>simple-portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <title>
+      {Primary Keyword} | {Brand Name} — {Short Value Prop, max 60 chars total}
+    </title>
+    <meta
+      name="description"
+      content="{Compelling 150-160 character description with primary keyword near the start. This is what shows in Google search results, so make it click-worthy, not just descriptive.}"
+    />
+    <meta name="keywords" content="{keyword1, keyword2, keyword3}" />
+    <!-- Low SEO value today, but harmless. Skip if minimalism preferred. -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="author" content="{Brand or Author Name}" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+
+    <link
+      rel="canonical"
+      href="https://www.yourdomain.com/current-page-path/"
+    />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{Brand Name}" />
+    <meta
+      property="og:title"
+      content="{Same or slightly punchier version of <title>, max 60 chars}"
+    />
+    <meta
+      property="og:description"
+      content="{125-155 character description, can differ slightly from meta description to optimize for social sharing}"
+    />
+    <meta
+      property="og:url"
+      content="https://www.yourdomain.com/current-page-path/"
+    />
+    <meta
+      property="og:image"
+      content="https://www.yourdomain.com/images/og-image-1200x630.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://www.yourdomain.com/images/og-image-1200x630.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="{Descriptive alt text for the OG image}"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@YourBrandHandle" />
+    <meta name="twitter:creator" content="@AuthorHandle" />
+    <meta name="twitter:title" content="{Same as og:title, max 70 chars}" />
+    <meta
+      name="twitter:description"
+      content="{Same as og:description, max 200 chars}"
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.yourdomain.com/images/twitter-image-1200x675.jpg"
+    />
+    <meta name="twitter:image:alt" content="{Descriptive alt text}" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.yourdomain.com/#organization",
+            "name": "{Brand Name}",
+            "url": "https://www.yourdomain.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.yourdomain.com/images/logo.png",
+              "width": 512,
+              "height": 512
+            },
+            "sameAs": [
+              "https://www.facebook.com/yourbrand",
+              "https://www.instagram.com/yourbrand",
+              "https://twitter.com/yourbrand",
+              "https://www.linkedin.com/company/yourbrand"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.yourdomain.com/#website",
+            "url": "https://www.yourdomain.com/",
+            "name": "{Brand Name}",
+            "publisher": { "@id": "https://www.yourdomain.com/#organization" },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.yourdomain.com/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yourdomain.com/current-page-path/#webpage",
+            "url": "https://www.yourdomain.com/current-page-path/",
+            "name": "{Page Title}",
+            "isPartOf": { "@id": "https://www.yourdomain.com/#website" },
+            "description": "{Same as meta description}",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.yourdomain.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "{Category}",
+                "item": "https://www.yourdomain.com/category/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "{Current Page}",
+                "item": "https://www.yourdomain.com/current-page-path/"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
